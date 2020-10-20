@@ -323,6 +323,7 @@ GameObject:
   - component: {fileID: 637770550}
   - component: {fileID: 637770553}
   - component: {fileID: 637770552}
+  - component: {fileID: 637770554}
   m_Layer: 10
   m_Name: LightBandit_0
   m_TagString: Untagged
@@ -505,6 +506,19 @@ MonoBehaviour:
   OnCrouchEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &637770554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637770546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3b9ec81601dccc46b73c3fbd3989b34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 637770547}
 --- !u!1 &1314015130
 GameObject:
   m_ObjectHideFlags: 0
